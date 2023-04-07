@@ -3,14 +3,18 @@
   "displayName": "scss2wxss",
   "description": "A Helper for scss2wxss",
   "version": "0.0.1",
+  "publisher": "ryouaki",
   "engines": {
-    "vscode": "^1.76.0"
+    "vscode": "^1.77.0"
+  },
+  "repository":{
+    "url": "https://github.com/ryouaki/scss2wxss"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
